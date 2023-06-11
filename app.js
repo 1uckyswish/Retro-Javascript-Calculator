@@ -11,7 +11,9 @@ function calculate(button){
         total = [];
         screenDisplay.textContent = "."
     }else if(value == "="){
-        screenDisplay.textContent = eval(arrayToStringValue)
+        const test = eval(arrayToStringValue)
+        console.log(test);
+        screenDisplay.textContent = test
     }else{
         total.push(value);
         arrayToStringValue = total.join('')

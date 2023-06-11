@@ -23,7 +23,7 @@ body{
 }
 
 .buttons{
-    width: 200px;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
